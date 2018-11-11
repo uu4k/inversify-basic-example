@@ -1,6 +1,6 @@
-import { Weapon } from "./weapon";
+import { Weapon } from './weapon'
 
-export interface Warrior {
-    name: string;
-    weapon: Weapon;
+export default interface Warrior {
+  name: string
+  weapon: Weapon
 }

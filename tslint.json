@@ -43,9 +43,10 @@
       "check-else",
       "check-whitespace"
     ],
-    "quotemark": [true, "double", "avoid-escape"],
+    // "quotemark": [true, "double", "avoid-escape"],
+    "quotemark": [false],
     "radix": true,
-    "semicolon": true,
+    "semicolon": false,
     "trailing-comma": false,
     "triple-equals": [true, "allow-null-check"],
     "typedef-whitespace": [true, {
